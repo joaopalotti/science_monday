@@ -1,0 +1,20 @@
+science_monday documentation!
+*****************************
+
+Contents:
+
+* Getting started
+
+* Commands
+
+  * Syncing data to S3
+
+
+Indices and tables
+******************
+
+* Index
+
+* Module Index
+
+* Search Page
