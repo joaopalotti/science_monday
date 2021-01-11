@@ -1,0 +1,5 @@
+# In _toc.yml
+- file: landing-page
+- file: Parallel
+- file: ML\ with\ pyCaret
+- file: PyTorch\ with\ Skorch

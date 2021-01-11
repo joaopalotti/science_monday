@@ -1,0 +1,6 @@
+# in _config.yml
+title: "My Science Monday Book"
+logo: images/logo.png
+execute:
+  execute_notebooks: "off"
+
