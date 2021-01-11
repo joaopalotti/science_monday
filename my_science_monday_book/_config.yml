@@ -1,0 +1,14 @@
+#######################################################################################
+# A default configuration that will be loaded for all jupyter books
+# See the documentation for help and more options: 
+# https://jupyterbook.org/customize/config.html
+
+#######################################################################################
+# Book settings
+title                       : my_science_monday_book  # The title of the book. Will be placed in the left navbar.
+author                      : Joao Palotti  # The author of the book
+copyright                   : "2021"  # Copyright year to be placed in the footer
+logo                        : logo.png  # A path to the book logo
+
+#launch_buttons:
+#binderhub_url: "https://mybinder.org"
