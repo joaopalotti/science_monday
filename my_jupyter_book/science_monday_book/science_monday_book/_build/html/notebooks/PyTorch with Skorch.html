@@ -1,0 +1,869 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>&lt;no title&gt; &#8212; science_monday_book</title>
+    
+  <link rel="stylesheet" href="../_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="../_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="../_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="../_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="PyCaret provides support for:" href="ML%20with%20pyCaret.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="../index.html">
+  
+  <img src="../_static/logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">science_monday_book</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../intro.html">
+   Welcome to your Jupyter Book
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  Default Content
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../markdown.html">
+   Markdown Files
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../notebooks.html">
+   Content with notebooks
+  </a>
+ </li>
+</ul>
+<p class="caption collapsible-parent">
+ <span class="caption-text">
+  My Notebooks
+ </span>
+</p>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="Parallel.html">
+   Parallel Libraries for Python
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ML%20with%20pyCaret.html">
+   pyCaret library for ML
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/notebooks/PyTorch with Skorch.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/notebooks/PyTorch with Skorch.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="simple nav section-nav flex-column">
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <p>PyTorch/Tensorflow are extremely verbose packages.</p>
+<p>The <b>good</b> thing about it is that you learn by having to do every single step of it.<br>
+The obvious <b>bad</b> thing about it is that you have to do every single step of it, and whenever you have to write a lot of code, bugs appear…</p>
+<p>There are many packages to short the amount of code people have to write. For example:</p>
+<ul class="simple">
+<li><p>Ignite  –&gt; https://pytorch.org/ignite/ | https://github.com/pytorch/ignite (3.2k stars)</p></li>
+<li><p>Pytorch-lightning –&gt; https://www.pytorchlightning.ai/ (11.3k stars)</p></li>
+<li><p>Skorch –&gt;  https://github.com/skorch-dev/skorch (3.7k stars)</p></li>
+<li><p>Poutyne –&gt; https://poutyne.org/ | https://github.com/GRAAL-Research/poutyne (422 stars)</p></li>
+<li><p>Catalyst –&gt; https://github.com/catalyst-team/catalyst (2.4k stars)</p></li>
+</ul>
+<p>Example of what are these frameworks for:</p>
+<p><img alt="image.png" src="https://www.comet.ml/site/app/uploads/2020/03/Screen-Shot-2020-03-20-at-12.31.04-PM.png" /></p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">make_classification</span>
+<span class="kn">from</span> <span class="nn">torch</span> <span class="kn">import</span> <span class="n">nn</span>
+
+<span class="kn">from</span> <span class="nn">skorch</span> <span class="kn">import</span> <span class="n">NeuralNetClassifier</span>
+
+<span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">make_classification</span><span class="p">(</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">24</span><span class="p">,</span> <span class="n">n_informative</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">float32</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">y</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">int64</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">MyNet</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Module</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">num_units</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">nonlin</span><span class="o">=</span><span class="n">nn</span><span class="o">.</span><span class="n">ReLU</span><span class="p">()):</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">MyNet</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="fm">__init__</span><span class="p">()</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">dense0</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">24</span><span class="p">,</span> <span class="n">num_units</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">nonlin</span> <span class="o">=</span> <span class="n">nonlin</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dropout</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Dropout</span><span class="p">(</span><span class="mf">0.5</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dense1</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">num_units</span><span class="p">,</span> <span class="n">num_units</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">output</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="n">num_units</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">softmax</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Softmax</span><span class="p">(</span><span class="n">dim</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="n">X</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">nonlin</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dense0</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+        <span class="n">X</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">dropout</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+        <span class="n">X</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">nonlin</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dense1</span><span class="p">(</span><span class="n">X</span><span class="p">))</span>
+        <span class="n">X</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">softmax</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">output</span><span class="p">(</span><span class="n">X</span><span class="p">))</span>
+        <span class="k">return</span> <span class="n">X</span>
+
+
+<span class="n">net</span> <span class="o">=</span> <span class="n">NeuralNetClassifier</span><span class="p">(</span>
+    <span class="n">MyNet</span><span class="p">,</span>
+    <span class="n">max_epochs</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+    <span class="n">lr</span><span class="o">=</span><span class="mf">0.1</span><span class="p">,</span>
+    <span class="c1"># Shuffle training data on each epoch</span>
+    <span class="c1">#iterator_train__shuffle=True,</span>
+<span class="p">)</span>
+
+<span class="n">net</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="n">y_proba</span> <span class="o">=</span> <span class="n">net</span><span class="o">.</span><span class="n">predict_proba</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>  epoch    train_loss    valid_acc    valid_loss     dur
+-------  ------------  -----------  ------------  ------
+      1        <span class=" -Color -Color-Cyan">0.7285</span>       <span class=" -Color -Color-Green">0.5050</span>        <span class=" -Color -Color-Magenta">0.7052</span>  0.0146
+      2        <span class=" -Color -Color-Cyan">0.7043</span>       <span class=" -Color -Color-Green">0.5200</span>        <span class=" -Color -Color-Magenta">0.6970</span>  0.0137
+      3        <span class=" -Color -Color-Cyan">0.6968</span>       <span class=" -Color -Color-Green">0.5500</span>        <span class=" -Color -Color-Magenta">0.6897</span>  0.0159
+      4        <span class=" -Color -Color-Cyan">0.6892</span>       <span class=" -Color -Color-Green">0.5600</span>        <span class=" -Color -Color-Magenta">0.6839</span>  0.0123
+      5        <span class=" -Color -Color-Cyan">0.6776</span>       <span class=" -Color -Color-Green">0.6100</span>        <span class=" -Color -Color-Magenta">0.6761</span>  0.0133
+      6        <span class=" -Color -Color-Cyan">0.6747</span>       <span class=" -Color -Color-Green">0.6200</span>        <span class=" -Color -Color-Magenta">0.6720</span>  0.0128
+      7        <span class=" -Color -Color-Cyan">0.6649</span>       <span class=" -Color -Color-Green">0.6350</span>        <span class=" -Color -Color-Magenta">0.6656</span>  0.0125
+      8        <span class=" -Color -Color-Cyan">0.6642</span>       <span class=" -Color -Color-Green">0.6400</span>        <span class=" -Color -Color-Magenta">0.6603</span>  0.0127
+      9        <span class=" -Color -Color-Cyan">0.6597</span>       <span class=" -Color -Color-Green">0.6600</span>        <span class=" -Color -Color-Magenta">0.6536</span>  0.0116
+     10        <span class=" -Color -Color-Cyan">0.6384</span>       <span class=" -Color -Color-Green">0.6650</span>        <span class=" -Color -Color-Magenta">0.6469</span>  0.0109
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pycaret.datasets</span> <span class="kn">import</span> <span class="n">get_data</span>
+<span class="kn">from</span> <span class="nn">pycaret.classification</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="n">data</span> <span class="o">=</span> <span class="n">get_data</span><span class="p">(</span><span class="s1">&#39;diabetes&#39;</span><span class="p">)</span>
+<span class="n">clf1</span> <span class="o">=</span> <span class="n">setup</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">target</span> <span class="o">=</span> <span class="s1">&#39;Class variable&#39;</span><span class="p">)</span>
+<span class="c1"># The transformed data has shape (_, 24)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html"><style  type="text/css" >
+</style><table id="T_675ac6f2_5353_11eb_b020_525400a3a9e0" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >Description</th>        <th class="col_heading level0 col1" >Value</th>    </tr></thead><tbody>
+                <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row0" class="row_heading level0 row0" >0</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row0_col0" class="data row0 col0" >session_id</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row0_col1" class="data row0 col1" >8926</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row1" class="row_heading level0 row1" >1</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row1_col0" class="data row1 col0" >Target</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row1_col1" class="data row1 col1" >Class variable</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row2" class="row_heading level0 row2" >2</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row2_col0" class="data row2 col0" >Target Type</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row2_col1" class="data row2 col1" >Binary</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row3" class="row_heading level0 row3" >3</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row3_col0" class="data row3 col0" >Label Encoded</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row3_col1" class="data row3 col1" >0: 0, 1: 1</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row4" class="row_heading level0 row4" >4</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row4_col0" class="data row4 col0" >Original Data</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row4_col1" class="data row4 col1" >(768, 9)</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row5" class="row_heading level0 row5" >5</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row5_col0" class="data row5 col0" >Missing Values</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row5_col1" class="data row5 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row6" class="row_heading level0 row6" >6</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row6_col0" class="data row6 col0" >Numeric Features</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row6_col1" class="data row6 col1" >7</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row7" class="row_heading level0 row7" >7</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row7_col0" class="data row7 col0" >Categorical Features</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row7_col1" class="data row7 col1" >1</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row8" class="row_heading level0 row8" >8</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row8_col0" class="data row8 col0" >Ordinal Features</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row8_col1" class="data row8 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row9" class="row_heading level0 row9" >9</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row9_col0" class="data row9 col0" >High Cardinality Features</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row9_col1" class="data row9 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row10" class="row_heading level0 row10" >10</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row10_col0" class="data row10 col0" >High Cardinality Method</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row10_col1" class="data row10 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row11" class="row_heading level0 row11" >11</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row11_col0" class="data row11 col0" >Transformed Train Set</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row11_col1" class="data row11 col1" >(537, 24)</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row12" class="row_heading level0 row12" >12</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row12_col0" class="data row12 col0" >Transformed Test Set</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row12_col1" class="data row12 col1" >(231, 24)</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row13" class="row_heading level0 row13" >13</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row13_col0" class="data row13 col0" >Shuffle Train-Test</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row13_col1" class="data row13 col1" >True</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row14" class="row_heading level0 row14" >14</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row14_col0" class="data row14 col0" >Stratify Train-Test</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row14_col1" class="data row14 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row15" class="row_heading level0 row15" >15</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row15_col0" class="data row15 col0" >Fold Generator</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row15_col1" class="data row15 col1" >StratifiedKFold</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row16" class="row_heading level0 row16" >16</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row16_col0" class="data row16 col0" >Fold Number</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row16_col1" class="data row16 col1" >10</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row17" class="row_heading level0 row17" >17</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row17_col0" class="data row17 col0" >CPU Jobs</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row17_col1" class="data row17 col1" >-1</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row18" class="row_heading level0 row18" >18</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row18_col0" class="data row18 col0" >Use GPU</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row18_col1" class="data row18 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row19" class="row_heading level0 row19" >19</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row19_col0" class="data row19 col0" >Log Experiment</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row19_col1" class="data row19 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row20" class="row_heading level0 row20" >20</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row20_col0" class="data row20 col0" >Experiment Name</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row20_col1" class="data row20 col1" >clf-default-name</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row21" class="row_heading level0 row21" >21</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row21_col0" class="data row21 col0" >USI</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row21_col1" class="data row21 col1" >2118</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row22" class="row_heading level0 row22" >22</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row22_col0" class="data row22 col0" >Imputation Type</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row22_col1" class="data row22 col1" >simple</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row23" class="row_heading level0 row23" >23</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row23_col0" class="data row23 col0" >Iterative Imputation Iteration</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row23_col1" class="data row23 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row24" class="row_heading level0 row24" >24</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row24_col0" class="data row24 col0" >Numeric Imputer</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row24_col1" class="data row24 col1" >mean</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row25" class="row_heading level0 row25" >25</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row25_col0" class="data row25 col0" >Iterative Imputation Numeric Model</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row25_col1" class="data row25 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row26" class="row_heading level0 row26" >26</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row26_col0" class="data row26 col0" >Categorical Imputer</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row26_col1" class="data row26 col1" >constant</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row27" class="row_heading level0 row27" >27</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row27_col0" class="data row27 col0" >Iterative Imputation Categorical Model</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row27_col1" class="data row27 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row28" class="row_heading level0 row28" >28</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row28_col0" class="data row28 col0" >Unknown Categoricals Handling</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row28_col1" class="data row28 col1" >least_frequent</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row29" class="row_heading level0 row29" >29</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row29_col0" class="data row29 col0" >Normalize</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row29_col1" class="data row29 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row30" class="row_heading level0 row30" >30</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row30_col0" class="data row30 col0" >Normalize Method</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row30_col1" class="data row30 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row31" class="row_heading level0 row31" >31</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row31_col0" class="data row31 col0" >Transformation</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row31_col1" class="data row31 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row32" class="row_heading level0 row32" >32</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row32_col0" class="data row32 col0" >Transformation Method</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row32_col1" class="data row32 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row33" class="row_heading level0 row33" >33</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row33_col0" class="data row33 col0" >PCA</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row33_col1" class="data row33 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row34" class="row_heading level0 row34" >34</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row34_col0" class="data row34 col0" >PCA Method</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row34_col1" class="data row34 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row35" class="row_heading level0 row35" >35</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row35_col0" class="data row35 col0" >PCA Components</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row35_col1" class="data row35 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row36" class="row_heading level0 row36" >36</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row36_col0" class="data row36 col0" >Ignore Low Variance</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row36_col1" class="data row36 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row37" class="row_heading level0 row37" >37</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row37_col0" class="data row37 col0" >Combine Rare Levels</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row37_col1" class="data row37 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row38" class="row_heading level0 row38" >38</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row38_col0" class="data row38 col0" >Rare Level Threshold</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row38_col1" class="data row38 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row39" class="row_heading level0 row39" >39</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row39_col0" class="data row39 col0" >Numeric Binning</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row39_col1" class="data row39 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row40" class="row_heading level0 row40" >40</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row40_col0" class="data row40 col0" >Remove Outliers</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row40_col1" class="data row40 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row41" class="row_heading level0 row41" >41</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row41_col0" class="data row41 col0" >Outliers Threshold</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row41_col1" class="data row41 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row42" class="row_heading level0 row42" >42</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row42_col0" class="data row42 col0" >Remove Multicollinearity</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row42_col1" class="data row42 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row43" class="row_heading level0 row43" >43</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row43_col0" class="data row43 col0" >Multicollinearity Threshold</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row43_col1" class="data row43 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row44" class="row_heading level0 row44" >44</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row44_col0" class="data row44 col0" >Clustering</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row44_col1" class="data row44 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row45" class="row_heading level0 row45" >45</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row45_col0" class="data row45 col0" >Clustering Iteration</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row45_col1" class="data row45 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row46" class="row_heading level0 row46" >46</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row46_col0" class="data row46 col0" >Polynomial Features</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row46_col1" class="data row46 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row47" class="row_heading level0 row47" >47</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row47_col0" class="data row47 col0" >Polynomial Degree</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row47_col1" class="data row47 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row48" class="row_heading level0 row48" >48</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row48_col0" class="data row48 col0" >Trignometry Features</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row48_col1" class="data row48 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row49" class="row_heading level0 row49" >49</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row49_col0" class="data row49 col0" >Polynomial Threshold</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row49_col1" class="data row49 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row50" class="row_heading level0 row50" >50</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row50_col0" class="data row50 col0" >Group Features</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row50_col1" class="data row50 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row51" class="row_heading level0 row51" >51</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row51_col0" class="data row51 col0" >Feature Selection</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row51_col1" class="data row51 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row52" class="row_heading level0 row52" >52</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row52_col0" class="data row52 col0" >Features Selection Threshold</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row52_col1" class="data row52 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row53" class="row_heading level0 row53" >53</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row53_col0" class="data row53 col0" >Feature Interaction</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row53_col1" class="data row53 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row54" class="row_heading level0 row54" >54</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row54_col0" class="data row54 col0" >Feature Ratio</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row54_col1" class="data row54 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row55" class="row_heading level0 row55" >55</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row55_col0" class="data row55 col0" >Interaction Threshold</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row55_col1" class="data row55 col1" >None</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row56" class="row_heading level0 row56" >56</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row56_col0" class="data row56 col0" >Fix Imbalance</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row56_col1" class="data row56 col1" >False</td>
+            </tr>
+            <tr>
+                        <th id="T_675ac6f2_5353_11eb_b020_525400a3a9e0level0_row57" class="row_heading level0 row57" >57</th>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row57_col0" class="data row57 col0" >Fix Imbalance Method</td>
+                        <td id="T_675ac6f2_5353_11eb_b020_525400a3a9e0row57_col1" class="data row57 col1" >SMOTE</td>
+            </tr>
+    </tbody></table></div></div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">create_model</span><span class="p">(</span><span class="n">net</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<script type="application/vnd.jupyter.widget-view+json">
+{"model_id": "657cf1cb02cb41db97640a12c5d95b7a", "version_major": 2, "version_minor": 0}
+</script><div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Initiated</th>
+      <td>. . . . . . . . . . . . . . . . . .</td>
+      <td>17:52:09</td>
+    </tr>
+    <tr>
+      <th>Status</th>
+      <td>. . . . . . . . . . . . . . . . . .</td>
+      <td>Finalizing Model</td>
+    </tr>
+    <tr>
+      <th>Estimator</th>
+      <td>. . . . . . . . . . . . . . . . . .</td>
+      <td>NeuralNetClassifier</td>
+    </tr>
+  </tbody>
+</table>
+</div></div><div class="output text_html"><div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Accuracy</th>
+      <th>AUC</th>
+      <th>Recall</th>
+      <th>Prec.</th>
+      <th>F1</th>
+      <th>Kappa</th>
+      <th>MCC</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+</div></div><div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">TypeError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">28</span><span class="o">-</span><span class="mi">2</span><span class="n">ab60f3fcd06</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">create_model</span><span class="p">(</span><span class="n">net</span><span class="p">)</span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/pycaret/classification.py</span> in <span class="ni">create_model</span><span class="nt">(estimator, fold, round, cross_validation, fit_kwargs, groups, verbose, **kwargs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">887</span>     <span class="sd">&quot;&quot;&quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">888</span><span class="sd"> </span>
+<span class="ne">--&gt; </span><span class="mi">889</span><span class="sd">     return pycaret.internal.tabular.create_model_supervised(</span>
+<span class="g g-Whitespace">    </span><span class="mi">890</span><span class="sd">         estimator=estimator,</span>
+<span class="g g-Whitespace">    </span><span class="mi">891</span><span class="sd">         fold=fold,</span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/pycaret/internal/tabular.py</span> in <span class="ni">create_model_supervised</span><span class="nt">(estimator, fold, round, cross_validation, predict, fit_kwargs, groups, refit, verbose, system, X_train_data, y_train_data, metrics, display, **kwargs)</span>
+<span class="g g-Whitespace">   </span><span class="mi">3128</span><span class="sd">             logger.info(&quot;Finalizing model&quot;)</span>
+<span class="g g-Whitespace">   </span><span class="mi">3129</span><span class="sd">             with io.capture_output():</span>
+<span class="ne">-&gt; </span><span class="mi">3130</span><span class="sd">                 pipeline_with_model.fit(data_X, data_y, **fit_kwargs)</span>
+<span class="g g-Whitespace">   </span><span class="mi">3131</span><span class="sd">             model_fit_end = time.time()</span>
+<span class="g g-Whitespace">   </span><span class="mi">3132</span><span class="sd"> </span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/pycaret/internal/pipeline.py</span> in <span class="ni">fit</span><span class="nt">(self, X, y, **fit_kwargs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">116</span><span class="sd"> </span>
+<span class="g g-Whitespace">    </span><span class="mi">117</span><span class="sd">     def fit(self, X, y=None, **fit_kwargs):</span>
+<span class="ne">--&gt; </span><span class="mi">118</span><span class="sd">         result = super().fit(X, y=y, **fit_kwargs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">119</span><span class="sd"> </span>
+<span class="g g-Whitespace">    </span><span class="mi">120</span><span class="sd">         self._carry_over_final_estimator_fit_vars()</span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/imblearn/pipeline.py</span> in <span class="ni">fit</span><span class="nt">(self, X, y, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">279</span><span class="sd">                                  self._log_message(len(self.steps) - 1)):</span>
+<span class="g g-Whitespace">    </span><span class="mi">280</span><span class="sd">             if self._final_estimator != &quot;passthrough&quot;:</span>
+<span class="ne">--&gt; </span><span class="mi">281</span><span class="sd">                 self._final_estimator.fit(Xt, yt, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">282</span><span class="sd">         return self</span>
+<span class="g g-Whitespace">    </span><span class="mi">283</span><span class="sd"> </span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/skorch/classifier.py</span> in <span class="ni">fit</span><span class="nt">(self, X, y, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">140</span><span class="sd">         # this is actually a pylint bug:</span>
+<span class="g g-Whitespace">    </span><span class="mi">141</span><span class="sd">         # https://github.com/PyCQA/pylint/issues/1085</span>
+<span class="ne">--&gt; </span><span class="mi">142</span><span class="sd">         return super(NeuralNetClassifier, self).fit(X, y, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">143</span><span class="sd"> </span>
+<span class="g g-Whitespace">    </span><span class="mi">144</span><span class="sd">     def predict_proba(self, X):</span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/skorch/net.py</span> in <span class="ni">fit</span><span class="nt">(self, X, y, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">901</span><span class="sd">             self.initialize()</span>
+<span class="g g-Whitespace">    </span><span class="mi">902</span><span class="sd"> </span>
+<span class="ne">--&gt; </span><span class="mi">903</span><span class="sd">         self.partial_fit(X, y, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">904</span><span class="sd">         return self</span>
+<span class="g g-Whitespace">    </span><span class="mi">905</span><span class="sd"> </span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/skorch/net.py</span> in <span class="ni">partial_fit</span><span class="nt">(self, X, y, classes, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">860</span><span class="sd">         self.notify(&#39;on_train_begin&#39;, X=X, y=y)</span>
+<span class="g g-Whitespace">    </span><span class="mi">861</span><span class="sd">         try:</span>
+<span class="ne">--&gt; </span><span class="mi">862</span><span class="sd">             self.fit_loop(X, y, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">863</span><span class="sd">         except KeyboardInterrupt:</span>
+<span class="g g-Whitespace">    </span><span class="mi">864</span><span class="sd">             pass</span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/skorch/net.py</span> in <span class="ni">fit_loop</span><span class="nt">(self, X, y, epochs, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">773</span><span class="sd">             self.notify(&#39;on_epoch_begin&#39;, **on_epoch_kwargs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">774</span><span class="sd"> </span>
+<span class="ne">--&gt; </span><span class="mi">775</span><span class="sd">             self.run_single_epoch(dataset_train, training=True, prefix=&quot;train&quot;,</span>
+<span class="g g-Whitespace">    </span><span class="mi">776</span><span class="sd">                                   step_fn=self.train_step, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">777</span><span class="sd"> </span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/skorch/net.py</span> in <span class="ni">run_single_epoch</span><span class="nt">(self, dataset, training, prefix, step_fn, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">810</span><span class="sd">             yi_res = yi if not is_placeholder_y else None</span>
+<span class="g g-Whitespace">    </span><span class="mi">811</span><span class="sd">             self.notify(&quot;on_batch_begin&quot;, X=Xi, y=yi_res, training=training)</span>
+<span class="ne">--&gt; </span><span class="mi">812</span><span class="sd">             step = step_fn(Xi, yi, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">813</span><span class="sd">             self.history.record_batch(prefix + &quot;_loss&quot;, step[&quot;loss&quot;].item())</span>
+<span class="g g-Whitespace">    </span><span class="mi">814</span><span class="sd">             self.history.record_batch(prefix + &quot;_batch_size&quot;, get_len(Xi))</span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/skorch/net.py</span> in <span class="ni">train_step</span><span class="nt">(self, Xi, yi, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">707</span><span class="sd">             return step[&#39;loss&#39;]</span>
+<span class="g g-Whitespace">    </span><span class="mi">708</span><span class="sd"> </span>
+<span class="ne">--&gt; </span><span class="mi">709</span><span class="sd">         self.optimizer_.step(step_fn)</span>
+<span class="g g-Whitespace">    </span><span class="mi">710</span><span class="sd">         return step_accumulator.get_step()</span>
+<span class="g g-Whitespace">    </span><span class="mi">711</span><span class="sd"> </span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/torch/autograd/grad_mode.py</span> in <span class="ni">decorate_context</span><span class="nt">(*args, **kwargs)</span>
+<span class="g g-Whitespace">     </span><span class="mi">24</span><span class="sd">         def decorate_context(*args, **kwargs):</span>
+<span class="g g-Whitespace">     </span><span class="mi">25</span><span class="sd">             with self.__class__():</span>
+<span class="ne">---&gt; </span><span class="mi">26</span><span class="sd">                 return func(*args, **kwargs)</span>
+<span class="g g-Whitespace">     </span><span class="mi">27</span><span class="sd">         return cast(F, decorate_context)</span>
+<span class="g g-Whitespace">     </span><span class="mi">28</span><span class="sd"> </span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/torch/optim/sgd.py</span> in <span class="ni">step</span><span class="nt">(self, closure)</span>
+<span class="g g-Whitespace">     </span><span class="mi">84</span><span class="sd">         if closure is not None:</span>
+<span class="g g-Whitespace">     </span><span class="mi">85</span><span class="sd">             with torch.enable_grad():</span>
+<span class="ne">---&gt; </span><span class="mi">86</span><span class="sd">                 loss = closure()</span>
+<span class="g g-Whitespace">     </span><span class="mi">87</span><span class="sd"> </span>
+<span class="g g-Whitespace">     </span><span class="mi">88</span><span class="sd">         for group in self.param_groups:</span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/skorch/net.py</span> in <span class="ni">step_fn</span><span class="nt">()</span>
+<span class="g g-Whitespace">    </span><span class="mi">703</span><span class="sd">         def step_fn():</span>
+<span class="g g-Whitespace">    </span><span class="mi">704</span><span class="sd">             self.optimizer_.zero_grad()</span>
+<span class="ne">--&gt; </span><span class="mi">705</span><span class="sd">             step = self.train_step_single(Xi, yi, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">706</span><span class="sd">             step_accumulator.store_step(step)</span>
+<span class="g g-Whitespace">    </span><span class="mi">707</span><span class="sd">             return step[&#39;loss&#39;]</span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/skorch/net.py</span> in <span class="ni">train_step_single</span><span class="nt">(self, Xi, yi, **fit_params)</span>
+<span class="g g-Whitespace">    </span><span class="mi">643</span><span class="sd">         &quot;&quot;&quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">644</span>         <span class="bp">self</span><span class="o">.</span><span class="n">module_</span><span class="o">.</span><span class="n">train</span><span class="p">()</span>
+<span class="ne">--&gt; </span><span class="mi">645</span>         <span class="n">y_pred</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">infer</span><span class="p">(</span><span class="n">Xi</span><span class="p">,</span> <span class="o">**</span><span class="n">fit_params</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">646</span>         <span class="n">loss</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_loss</span><span class="p">(</span><span class="n">y_pred</span><span class="p">,</span> <span class="n">yi</span><span class="p">,</span> <span class="n">X</span><span class="o">=</span><span class="n">Xi</span><span class="p">,</span> <span class="n">training</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">647</span>         <span class="n">loss</span><span class="o">.</span><span class="n">backward</span><span class="p">()</span>
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/skorch/net.py</span> in <span class="ni">infer</span><span class="nt">(self, x, **fit_params)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1045</span>         <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="nb">dict</span><span class="p">):</span>
+<span class="g g-Whitespace">   </span><span class="mi">1046</span>             <span class="n">x_dict</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_merge_x_and_fit_params</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">fit_params</span><span class="p">)</span>
+<span class="ne">-&gt; </span><span class="mi">1047</span>             <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">module_</span><span class="p">(</span><span class="o">**</span><span class="n">x_dict</span><span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1048</span>         <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">module_</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="o">**</span><span class="n">fit_params</span><span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1049</span> 
+
+<span class="nn">~/.conda/envs/cp38/lib/python3.8/site-packages/torch/nn/modules/module.py</span> in <span class="ni">_call_impl</span><span class="nt">(self, *input, **kwargs)</span>
+<span class="g g-Whitespace">    </span><span class="mi">725</span>             <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_slow_forward</span><span class="p">(</span><span class="o">*</span><span class="nb">input</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">726</span>         <span class="k">else</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">727</span>             <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">forward</span><span class="p">(</span><span class="o">*</span><span class="nb">input</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">728</span>         <span class="k">for</span> <span class="n">hook</span> <span class="ow">in</span> <span class="n">itertools</span><span class="o">.</span><span class="n">chain</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">729</span>                 <span class="n">_global_forward_hooks</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span>
+
+<span class="ne">TypeError</span>: forward() missing 1 required positional argument: &#39;x&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<p>Wrote my complain/question: https://github.com/pycaret/pycaret/issues/700</p>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./notebooks"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="ML%20with%20pyCaret.html" title="previous page">PyCaret provides support for:</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Joao Palotti<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="../_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>

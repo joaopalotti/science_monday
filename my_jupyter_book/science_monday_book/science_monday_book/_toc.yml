@@ -1,7 +1,18 @@
 # Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
 - file: intro
-- file: content
-  sections:
+#
+- part: Default Content
+  chapters:
     - file: markdown
     - file: notebooks
+#
+- part: My Notebooks
+  chapters:
+  - file: notebooks/Parallel
+    title: Parallel Libraries for Python 
+  - file: notebooks/ML with pyCaret
+    title: pyCaret library for ML
+  - file: notebooks/PyTorch with Skorch
+    title: PyTorch with Skorch
+
