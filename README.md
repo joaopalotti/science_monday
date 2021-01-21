@@ -55,3 +55,29 @@ Project Organization
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+Jupyter Book Updates
+==============================
+
+Steps to get Jupyer book up and running at: https://joaopalotti.github.io/science_monday/:
+
+- Renamed the original ``docs`` from the cookiecutter data science template as ``cookie_cutter_docs/``. It could also be removed.
+- The folder ``my_jupyter_book/`` was created using the Jupyer Notebook cookie_cutter command:
+    ```shel
+    jupyter-book create my_jupyter_book/ --cookiecutter
+    ```
+   See <a target="_blank" href="https://jupyterbook.org/start/overview.html/"> Jupyter Book documentation</a> for alternative options. 
+  
+- Built the notebook with:
+ ```shell
+ cd my_jupyter_book/science_monday_book
+ jupyter-book build science_monday_book
+ ```
+        
+- Installed ghp-import (``pip install ghp-import``) and used it:
+  ```shell
+  ghp-import -n -p -f my_jupyter_book/science_monday_book/science_monday_book/_build/html
+  ```
+- <a target="_blank" href="https://jupyterbook.org/publish/gh-pages.html">Published it</a>.
+
